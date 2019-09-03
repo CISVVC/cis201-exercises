@@ -33,12 +33,14 @@ Please enter an integer between 1000 and 999999:
 ```
 23,456 
 ```
-13. Write a program that reads a number between 1,000 and 999,999 from the user, where the user enters a comma in the input. Then print the number without a comma. Here is a sample dialog; the user input is in color:
+13. Write a program that reads a number between 1,000 and 999,999 from the user, where the user enters a comma in the input. Then print the number without a comma. Here is a sample dialog;
+```
 Please enter an integer between 1,000 and 999,999: 23,456
 23456
 Hint: Read the input as a string. Measure the length of the string. Suppose it contains n characters. Then extract substrings consisting of the first n – 4 characters and the last three characters.
-
-Printing a grid. Write a program that prints the following grid to play tic-tac-toe.
+```
+14. Printing a grid. Write a program that prints the following grid to play tic-tac-toe.
+```
 +--+--+--+
 |  |  |  |
 +--+--+--+
@@ -46,16 +48,20 @@ Printing a grid. Write a program that prints the following grid to play tic-tac-
 +--+--+--+
 |  |  |  |
 +--+--+--+
+```
+```
 Of course, you could simply write seven statements of the form
 cout << "+--+--+--+";
 You should do it the smart way, though. Define string variables to hold two kinds of patterns: a comb-shaped pattern
 +--+--+--+
 |  |  |  |
 and the bottom line. Print the comb three times and the bottom line once.
-
-Write a program that reads an integer and breaks it into a sequence of individual digits. For example, the input 16384 is displayed as
+```
+15. Write a program that reads an integer and breaks it into a sequence of individual digits. For example, the input 16384 is displayed as
+```
 1 6 3 8 4
-You may assume that the input has no more than five digits and is not negative.
+```
+    You may assume that the input has no more than five digits and is not negative.
 
 Write a program that reads two times in military format (0900, 1730) and prints the number of hours and minutes between the two times. Here is a sample run. User input is in color.
 Please enter the first time: 0900
