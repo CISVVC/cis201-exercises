@@ -67,12 +67,15 @@ Please enter the second time: 0900
 15 hours 30 minutes
 
 Writing large letters. A large letter H can be produced like this:
+```
 *   *
 *   *
 *****
 *   *
 *   *
+```
 It can be defined as a string constant like this:
+```
 const string LETTER_H =
   "*   *\n*   *\n*****\n*   *\n*   *\n";
 (The \n character is explained in Special Topic 1.1.) Do the same for the letters E, L, and O. Then write the message
@@ -81,6 +84,7 @@ E
 L
 L
 O
+```
 in large letters.
 
 Write a program that transforms numbers 1, 2, 3, …, 12 into the corresponding month names January, February, March, …, December. Hint: Make a very long string "January February March ...", in which you add spaces such that each month name has the same length. Then use substr to extract the month you want.
