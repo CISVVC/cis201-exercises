@@ -2,14 +2,14 @@
 2. Write a program that computes and displays the circumference of a letter-size (8.5 × 11 inches) sheet of paper and the length of its diagonal.
 3. Write a program that reads a number and displays the square, cube, and fourth power. Use the pow function only for the fourth power.
 4. Write a program that prompts the user for two integers and then prints
-  * The sum
-  * The difference
-  * The product
-  * The average
+    * The sum
+    * The difference
+    * The product
+    * The average
 5. Write a program that prompts the user for two integers and then prints
-  * The distance (absolute value of the difference)
-  * The maximum (the larger of the two)
-  * The minimum (the smaller of the two)
+    * The distance (absolute value of the difference)
+    * The maximum (the larger of the two)
+    * The minimum (the smaller of the two)
 Hint: The max and min functions are defined in the <algorithm> header.
 6. Write a program that prompts the user for a measurement in meters and then converts it to miles, feet, and inches.
 7. Write a program that prompts the user for a radius and then prints
