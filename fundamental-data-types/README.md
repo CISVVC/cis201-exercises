@@ -7,13 +7,11 @@
   * The product
   * The average
 5. Write a program that prompts the user for two integers and then prints
-    * The distance (absolute value of the difference)
-    * The maximum (the larger of the two)
-    * The minimum (the smaller of the two)
+  * The distance (absolute value of the difference)
+  * The maximum (the larger of the two)
+  * The minimum (the smaller of the two)
 Hint: The max and min functions are defined in the <algorithm> header.
-
 6. Write a program that prompts the user for a measurement in meters and then converts it to miles, feet, and inches.
-
 7. Write a program that prompts the user for a radius and then prints
 •The area and circumference of a circle with that radius
 •The volume and surface area of a sphere with that radius
