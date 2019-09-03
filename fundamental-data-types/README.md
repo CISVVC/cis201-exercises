@@ -27,7 +27,10 @@
 11. File names and extensions. Write a program that prompts the user for the drive letter (C), the path (\Windows\System), the file name (Readme), and the extension (txt). Then print the complete file name C:\Windows\System\Readme.txt. (If you use UNIX or a Macintosh, skip the drive name and use / instead of \ to separate directories.)
 12. Write a program that reads a number between 1,000 and 999,999 from the user and prints it with a comma separating the thousands. Here is a sample dialog; the user input is in color:
 ```
-Please enter an integer between 1000 and 999999: <span style="color:blue;">23456</span>
+Please enter an integer between 1000 and 999999: 
+```
+<span style="color:blue;">23456</span>
+```
 23,456 
 ```
 13. Write a program that reads a number between 1,000 and 999,999 from the user, where the user enters a comma in the input. Then print the number without a comma. Here is a sample dialog; the user input is in color:
